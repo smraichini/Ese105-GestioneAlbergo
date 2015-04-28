@@ -46,8 +46,7 @@ public abstract class Camera {
 	public boolean isDisponibile(LocalDateTime dal,LocalDateTime al){
 		boolean disp=false;
 		for(Prenotazione p : this.prenotazioni){
-			if(dal.getDayOfYear() > p.getArrivoIl().getDayOfYear() && al.getDayOfYear() < p.getArrivoIl().getDayOfYear()+p.getNumeroNotti()){
-				disp=true;
+			if(){
 			}
 		}
 		return disp;
